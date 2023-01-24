@@ -53,6 +53,10 @@ são ramificações / versões paralelas
 Mescla de branchs
 Você pode precisar resolver conflitos manualmente
 
+Primeiro verifica se tem alterações na branchs main
+> git fetch --all
+
+
 > git merge main 
 
 ### Pull Requests
