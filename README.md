@@ -59,6 +59,8 @@ Primeiro verifica se tem alterações na branchs main
 
 > git merge main 
 
+> git push --set-upstream origin dev
+
 ### Pull Requests
 Mescla de branchs no repositório
 Permite code review
@@ -66,5 +68,12 @@ O respositório resolve os conflitos automaticamente
 
 
 ### configura o GitFlow
+Para iniciar o git flow, precisa publicar todas as alterações na dev
+> git push
+
 > git flow init
 > git flow feature start {nome-da-feature}
+
+Para finalizar e commitar as alterações da feature
+> git flow feature finish melhoria-html
+
